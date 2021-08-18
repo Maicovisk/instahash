@@ -1,0 +1,80 @@
+body, html {
+    margin: 0pc;
+    padding: 0px;
+    min-height: 200px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.theader {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    text-transform: capitalize;
+}
+
+._search {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: calc(100vh - 40px);
+    border: 1px solid rgba(128, 128, 128, 0.356);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0001;
+    z-index: 0;
+}
+
+.result  {
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    margin: 20px auto;
+    min-height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    max-height: 600px;
+    position: relative;
+    z-index: 20;
+}
+
+@media (max-height: 910px) {
+    footer {
+        display: none !important;
+    }
+}
+
+.state {
+    height: 30px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px dashed grey;
+}
+
+
+.hash {
+    width: 100%;
+    border-bottom: 2px solid #0002;
+    margin: 10px 0px 10px 0px;
+    overflow-y: scroll;
+}
+
+.hashT {
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+    user-select: none;
+    -webkit-user-select: none;
+}
