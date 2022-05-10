@@ -1,0 +1,110 @@
+
+/*
+
+import java.util.*;
+
+
+public class Principal {
+
+// codigo do numero multiplicado
+	
+	public static void main(String[] args) {
+	
+		Scanner read = new Scanner(System.in);
+		int num;
+		
+		
+		System.out.print("informe um numero: ");
+		num = read.nextInt();
+		
+		System.out.println("o dobro do numero é: " + num * 2);
+		System.out.println("o trilo do numero é: " + num * 3);
+		
+		read.close();
+	}
+
+}
+*/
+
+
+
+
+import java.util.*;
+
+// par ou impar
+
+public class Principal {
+
+	
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		int num;
+		
+		
+		for (int i = 1; i<= 10; i++) {
+			
+			System.out.print("informe um numero: ");
+			num = sc.nextInt();
+			
+			
+			if (num % 2 == 0) {
+				System.out.printf("o numero %d é par \n", num);
+			}else {
+				System.out.println("o numero" + num + "é impar");
+			}
+		}
+		
+		sc.close();
+	}
+
+}
+
+
+
+
+/*
+import java.util.*;
+
+// nota do aluno
+
+public class Principal {
+
+	
+	public static void main(String[] args) {
+	
+		Scanner read = new Scanner(System.in);
+		float n1, n2, n3, media;
+		
+		
+		for (int i = 1; i <= 300; i++) {
+			System.out.println("aluno " + i);
+			System.out.print("informe a nota 1: ");
+			n1 = read.nextInt();
+			
+			System.out.print("informe a nota 2: ");
+			n2 = read.nextInt();
+			
+			System.out.print("informe a nota 3: ");
+			n3 = read.nextInt();
+			
+			
+			media = (n1 + n2 + n3) / 3;
+			
+			System.out.printf("sua media é %.1f: ", media);
+			
+			if (media > 6) {
+				System.out.println("aluno aprovado!");
+			}else if (media < 6 && media >= 3) {
+				System.out.println("prova final!");
+			}else {
+				System.out.println("reprovado!");
+			}
+			System.out.println("-------------------------------");
+		}
+				
+		read.close();
+	}
+
+}
+*/
